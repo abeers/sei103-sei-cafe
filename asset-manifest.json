@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sei103-sei-cafe/static/css/main.1f887080.css",
+    "main.js": "/sei103-sei-cafe/static/js/main.dad2a348.js",
+    "index.html": "/sei103-sei-cafe/index.html",
+    "main.1f887080.css.map": "/sei103-sei-cafe/static/css/main.1f887080.css.map",
+    "main.dad2a348.js.map": "/sei103-sei-cafe/static/js/main.dad2a348.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f887080.css",
+    "static/js/main.dad2a348.js"
+  ]
+}
