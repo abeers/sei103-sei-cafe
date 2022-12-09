@@ -1,6 +1,6 @@
 import { getToken } from './users-service';
 
-const herokuUrl = 'https://stormy-plateau-80569.herokuapp.com/'
+const herokuUrl = 'https://stormy-plateau-80569.herokuapp.com'
 
 export default async function sendRequest(url, method = 'GET', payload = null) {
   // Fetch takes an optional options object as the 2nd argument
