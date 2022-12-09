@@ -9,7 +9,11 @@ require('./config/database');
 
 const app = express();
 
-app.use(cors())
+var corsOptions = {
+  origin: 'https://abeers.github.io',
+  optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+app.use(cors(corsOptions))
 
 app.use(logger('dev'));
 // there's no need to mount express.urlencoded middleware
