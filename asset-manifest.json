@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sei103-sei-cafe/static/css/main.1f887080.css",
-    "main.js": "/sei103-sei-cafe/static/js/main.aa30491a.js",
+    "main.js": "/sei103-sei-cafe/static/js/main.37027b79.js",
     "index.html": "/sei103-sei-cafe/index.html",
     "main.1f887080.css.map": "/sei103-sei-cafe/static/css/main.1f887080.css.map",
-    "main.aa30491a.js.map": "/sei103-sei-cafe/static/js/main.aa30491a.js.map"
+    "main.37027b79.js.map": "/sei103-sei-cafe/static/js/main.37027b79.js.map"
   },
   "entrypoints": [
     "static/css/main.1f887080.css",
-    "static/js/main.aa30491a.js"
+    "static/js/main.37027b79.js"
   ]
 }
