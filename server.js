@@ -15,6 +15,11 @@ var corsOptions = {
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 app.use(cors(corsOptions))
+// app.use(
+//   cors({
+//     origin: process.env.CLIENT_ORIGIN || `http://localhost:${clientDevPort}`,
+//   })
+// )
 
 app.use(logger('dev'));
 // there's no need to mount express.urlencoded middleware
