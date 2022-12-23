@@ -1,7 +1,5 @@
 import { getToken } from './users-service';
 
-const herokuUrl = 'https://stormy-plateau-80569.herokuapp.com'
-
 export default async function sendRequest(url, method = 'GET', payload = null) {
   // Fetch takes an optional options object as the 2nd argument
   // used to include a data payload, set headers, etc. 
@@ -19,14 +17,7 @@ export default async function sendRequest(url, method = 'GET', payload = null) {
     options.headers.Authorization = `Bearer ${token}`;
   }
 
-  let apiUrl
-  if (window.location.hostname === 'localhost') {
-    apiUrl = url
-  } else {
-    apiUrl = herokuUrl + url
-  }
-
-  const res = await fetch(apiUrl, options);
+  const res = await fetch(url, options);
   // res.ok will be false if the status code set to 4xx in the controller action
   if (res.ok) return res.json();
   throw new Error('Bad Request');
